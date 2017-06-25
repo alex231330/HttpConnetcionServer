@@ -44,7 +44,6 @@ public class Main {
             }
         });
         ServerSocket server = new ServerSocket(8080);
-        String stroke = System.in.toString();
         s = server.accept();
         System.out.println("Client connected");
         thread.start();
